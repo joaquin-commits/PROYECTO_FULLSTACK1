@@ -48,8 +48,8 @@ Todas las APIs tienen un CRUD completo implementado (métodos GET, POST, PUT y D
 - Al arrancar, Flyway detectará las bases de datos vacías y creará las tablas de forma automática.
 
 3. Pruebas en Postman:
-Como las apis están conectadas por WebClient, los datos se deben probar estrictamente en orden[cite: 554]:
-- Paso 1: Crear registros (POST) en laboratorios, clientes y usuarios[cite: 558].
-- Paso 2: Crear registros en instrumentos y patrones (asignándoles el ID del laboratorio creado en el paso anterior)[cite: 561].
-- Paso 3: Crear una orden de trabajo y luego una calibracion[cite: 563, 565].
-- Paso 4: Finalmente, generar un certificado, una factura o probar la notificación[cite: 566, 567, 568].
+Como las apis están conectadas por WebClient, los datos se deben probar estrictamente en orden:
+- Paso 1: Crear registros (POST) en laboratorios, clientes y usuarios.
+- Paso 2: Crear registros en instrumentos y patrones (asignándoles el ID del laboratorio creado en el paso anterior).
+- Paso 3: Crear una orden de trabajo y luego una calibracion.
+- Paso 4: Finalmente, generar un certificado, una factura o probar la notificación.
