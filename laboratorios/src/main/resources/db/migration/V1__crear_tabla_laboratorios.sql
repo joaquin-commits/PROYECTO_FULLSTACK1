@@ -1,0 +1,6 @@
+CREATE TABLE laboratorios (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL UNIQUE,
+    direccion VARCHAR(255) NOT NULL,
+    acreditacion VARCHAR(255) NOT NULL
+);
