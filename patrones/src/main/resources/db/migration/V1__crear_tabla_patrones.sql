@@ -1,0 +1,7 @@
+CREATE TABLE patrones (
+   id BIGINT AUTO_INCREMENT PRIMARY KEY,
+   codigo VARCHAR(50) NOT NULL UNIQUE,
+   nombre VARCHAR(255) NOT NULL,
+   marca VARCHAR(255) NOT NULL,
+   laboratorio_id BIGINT NOT NULL
+);
