@@ -27,12 +27,12 @@ Este proyecto es un sistema de gestión para un laboratorio de metrología. Est�
 ## Estructura de las APIs
 El sistema cuenta con 10 microservicios divididos en 4 niveles de dependencia:
 
-- Nivel 1 (Base): laboratorios, clientes, usuarios[cite: 370, 371, 372]. Son independientes y no consumen a otras apis.
-- Nivel 2 (Intermedias): instrumentos, patrones[cite: 374, 375]. Consumen a la api de laboratorios mediante WebClient.
-- Nivel 3 (Transaccionales): ordenes, calibracion[cite: 379, 380]. Es el núcleo del sistema y cruzan los datos de clientes, instrumentos, patrones y usuarios.
-- Nivel 4 (Salida): certificados, facturacion, notificaciones[cite: 382, 384, 385]. Generan los documentos finales consumiendo a ordenes y calibracion.
+- Nivel 1 (Base): laboratorios, clientes, usuarios. Son independientes y no consumen a otras apis.
+- Nivel 2 (Intermedias): instrumentos, patrones. Consumen a la api de laboratorios mediante WebClient.
+- Nivel 3 (Transaccionales): ordenes, calibracion. Es el núcleo del sistema y cruzan los datos de clientes, instrumentos, patrones y usuarios.
+- Nivel 4 (Salida): certificados, facturacion, notificaciones. Generan los documentos finales consumiendo a ordenes y calibracion.
 
-Todas las APIs tienen un CRUD completo implementado (métodos GET, POST, PUT y DELETE)[cite: 667, 668].
+Todas las APIs tienen un CRUD completo implementado (métodos GET, POST, PUT y DELETE).
 
 ## Pasos para ejecutar el proyecto localmente
 
