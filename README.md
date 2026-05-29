@@ -37,15 +37,15 @@ Todas las APIs tienen un CRUD completo implementado (métodos GET, POST, PUT y D
 ## Pasos para ejecutar el proyecto localmente
 
 1. Configuración de la base de datos:
-- Abrir XAMPP e iniciar los servicios de Apache y MySQL[cite: 111].
-- Ir a http://localhost/phpmyadmin[cite: 113].
-- Crear 10 bases de datos completamente vacías con estos nombres exactos: laboratorios, clientes, usuarios, instrumentos, patrones, ordenes, calibracion, certificados, facturacion, notificaciones[cite: 114, 553]. No es necesario crear las tablas a mano.
+- Abrir XAMPP e iniciar los servicios de Apache y MySQL.
+- Ir a http://localhost/phpmyadmin.
+- Crear 10 bases de datos completamente vacías con estos nombres exactos: laboratorios, clientes, usuarios, instrumentos, patrones, ordenes, calibracion, certificados, facturacion, notificaciones. No es necesario crear las tablas a mano.
 
 2. Ejecución:
 - Clonar este repositorio.
-- Para que el sistema funcione completo, se deben ejecutar las 10 aplicaciones al mismo tiempo[cite: 572].
-- Abrir una terminal en la carpeta de cada microservicio y ejecutar el comando: mvn spring-boot:run[cite: 595].
-- Al arrancar, Flyway detectará las bases de datos vacías y creará las tablas de forma automática[cite: 553].
+- Para que el sistema funcione completo, se deben ejecutar las 10 aplicaciones al mismo tiempo.
+- Abrir una terminal en la carpeta de cada microservicio y ejecutar el comando: mvn spring-boot:run.
+- Al arrancar, Flyway detectará las bases de datos vacías y creará las tablas de forma automática.
 
 3. Pruebas en Postman:
 Como las apis están conectadas por WebClient, los datos se deben probar estrictamente en orden[cite: 554]:
