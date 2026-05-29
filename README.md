@@ -4,17 +4,25 @@
 Este proyecto es un sistema de gestión para un laboratorio de metrología. Está construido usando una arquitectura de 10 microservicios independientes que se comunican entre sí. Sirve para registrar laboratorios, clientes, instrumentos, y gestionar el flujo completo de las órdenes de trabajo, calibraciones, certificados y facturas.
 
 ## Estudiantes
-- Joaquín
-- [Tu Nombre]
+- Joaquín Garay
+- Javier Mauro
 
 ## Tecnologías utilizadas
-- Spring Boot (Java) [cite: 303]
-- Maven [cite: 303]
-- Spring Data JPA [cite: 303]
-- Base de datos: MariaDB mediante XAMPP [cite: 303, 320]
-- Flyway (para la creación automática de tablas) [cite: 304]
-- WebClient (para la comunicación REST entre los microservicios) [cite: 303]
-- Validation y Lombok [cite: 303]
+- Spring Boot
+- Maven
+- java
+  
+## Dependencias
+- Spring Data JPA
+- MariaDB driver
+- Flyway migration
+- spring reactive web
+- spring web
+- Validation
+- Lombok
+  
+## comunación
+-WebClient
 
 ## Estructura de las APIs
 El sistema cuenta con 10 microservicios divididos en 4 niveles de dependencia:
